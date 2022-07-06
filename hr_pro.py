@@ -71,7 +71,7 @@ def main():
             salary = int(input("Salary: "))
             EmpYear = int(input("Employment Year: "))
             emp = Employee(name, age, salary, EmpYear)
-            # EmployeeList.append(emp)
+            EmployeeList.append(emp)
             print("Employee added successfully \n")
         elif choose == 4:
             name = input("Name: ")
